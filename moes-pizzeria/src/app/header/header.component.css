@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Borel';
+  src: url('../../assets/fonts/Borel-Regular.ttf');
+}
+
+*{
+  background-color: #FAEFE5;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem 10%;
+  font-family: 'Borel', serif;
+  font-weight: bold;
+}
+
+li a {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #F04937;
+  text-decoration: none;
+}
+
+.logo {
+  margin-right: auto;
+}
+.logo a {
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+  font-size: 3.1rem;
+  color: #F04937;
+
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 1.2rem;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease-in 0s;
+}
+
+.nav__links li a:hover {
+  border-bottom: 1px solid black;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+.reservations {
+  justify-content: center;
+  float: right;
+}
+
+.reservations .hours-of-operation {
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+button {
+  padding: 9px 30px;
+  background-color: #FAEFE5;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+
+}
+
+
+/* #FAEFE5 and #F04937 */

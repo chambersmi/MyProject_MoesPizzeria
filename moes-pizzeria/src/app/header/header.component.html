@@ -1,0 +1,20 @@
+<header>
+  <div class="logo">
+    <a href="#" routerLink="/">Moe's Pizzeria</a>
+  </div>
+  <nav>
+    <ul class="nav__links">
+      <li><a [routerLink]="['/Appetizers']" routerLinkActive="router-link-active" >Appetizers</a></li>
+      <li><a [routerLink]="['/Pizzas']">Pizzas</a></li>
+      <li><a [routerLink]="['/Calzones']">Calzones</a></li>
+      <li><a [routerLink]="['/Grinders']">Grinders</a></li>
+      <li><a [routerLink]="['/Salads']">Salads</a></li>
+      <li><a [routerLink]="['/AboutUs']">About Us</a></li>
+
+      <div class="reservations">
+        <button><a href="#">Pickup</a></button>
+        <p class="hours-of-operation">Hours: Mon-Sun 11am - 10pm</p>
+      </div>
+    </ul>
+  </nav>
+</header>

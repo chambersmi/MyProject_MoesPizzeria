@@ -1,0 +1,23 @@
+<body>
+  <div class="container">
+    <div class="headline">
+      Appetizers
+    </div>
+    <div class="menu">
+      Start your dinner off right with are delicious appetizers!
+      <div class="menu-group" *ngFor="let app of appetizers">
+        <div class="menu-item">
+          <!-- <img src="../../../assets/images/small-pizza.png" alt="" class="menu-item-image"> -->
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">{{app.itemName}}</span>
+              <span class="menu-item-price">${{app.itemPrice}}</span>
+            </h3>
+            <p class="menu-item-description">{{app.itemDescription}}</p>
+          </div>
+        </div>
+        <button class="btn" (click)="addToCart(app.itemName)"> Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</body>
